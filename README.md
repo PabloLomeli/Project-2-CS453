@@ -4,7 +4,8 @@ In this project, we will create a thread-safe version of an existing list librar
 
 You will create the ThreadsafeBoundedList.c file in the wrapper-library subfolder to complete the implementation of the thread-safe list library.
 
-To compile, be in the root directory and use the following command: make all
+To have a clean compile, be in the root directory and use the following command: make clean 
+Then: make all
 
 To use this program use the following format on the command line afer compiling: ./pc <poolsize> <#items/producer> <#producers> <#consumers> <sleep interval(microsecs)>
 
